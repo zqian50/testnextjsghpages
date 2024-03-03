@@ -84,7 +84,7 @@ export default function Home() {
       <div className={styles.flashOfEvents}>
         <div className={styles.imgContainer}>
           <Image
-            src="/testnextjsghpages/placehold1.png"
+            src="/placehold1.png"
             fill={true}
             alt="placehold1"
             objectFit="cover"
