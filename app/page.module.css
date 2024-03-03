@@ -1,0 +1,150 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flashOfEvents {
+  text-align: center;
+}
+.flashOfEvents .image {
+  border: 8px solid #87b854;
+  border-radius: 30px;
+}
+.imgContainer {
+  height: 495px;
+  width: 89.6vw;
+  position: relative;
+}
+
+.flashOfEvents h2 {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -130%);
+  background-color: #87b854;
+  color: white;
+  font-size: 39px;
+  line-height: 39px;
+  font-weight: 400;
+  width: 63.1vw;
+  padding: 43px 0;
+  border-radius: 60px;
+  transition: all 0.5s ease;
+}
+.flashOfEvents h2:hover {
+  opacity: 0.5;
+}
+
+
+.missionFlashes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6.4vw;
+  margin-top: -100px;
+  justify-content: center;
+}
+.missionContainer {
+  width: 351px;
+  height: 438px;
+  position: relative;
+  color: white;
+}
+.missionContainer p {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  max-width: 14ch;
+  font-weight: 650;
+  text-align: center;
+}
+.black {
+  color: black;
+}
+
+
+.leadershipTitle {
+  margin-top: 80px;
+  font-size: 46px;
+  color: #87b854;
+}
+.leadershipTeam {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.leaders {
+  display: flex;
+  gap: 50px;
+}
+
+
+.updatesTitle {
+  font-size: 46px;
+  line-height: 36px;
+  color: #87b854;
+  font-weight: bold;
+  width: 89vw;
+  text-align: center;
+  margin-top: 150px;
+}
+.updates {
+  display: flex;
+  flex-direction: row;
+  gap: 88px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.updateContainer {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  gap: 50px;
+  border: 4px solid #87b854;
+  border-radius: 45px;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 0;
+}
+.updateContainer p {
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  max-width: 20ch;
+  margin-right: 50px;
+}
+.image {
+  border-radius: 45px;
+}
+
+.groupPic {
+  margin-top: 50px;
+  height: fit-content;
+}
+
+@media screen and (max-width: 835px) {
+  .updateContainer {
+    flex-direction: column;
+    width:fit-content;
+    text-align: center;
+    padding: 4vw;
+  }
+  .updateContainer p {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .updatesTitle,
+  .leadershipTitle {
+    font-size: 40px;
+  }
+}
