@@ -2,7 +2,9 @@
 const nextConfig = {
   basePath: "/testnextjsghpages",
   output: "export",
-  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
