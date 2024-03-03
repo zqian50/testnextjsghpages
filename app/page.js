@@ -13,56 +13,56 @@ export default function Home() {
   ]
   const leadershipTeam = [
     {name: "Syed Rahman",
-      headshot: "/testnextjsghpages/syedrahman0.jpg",
-      photo: "/testnextjsghpages/syedrahman1.jpg",
+      headshot: "/syedrahman0.jpg",
+      photo: "/syedrahman1.jpg",
       pronouns: "He/Him",
       title: "Bike Design Competition",
       email: "srahman61@stuy.edu",
       blurb: "Hey guys, my name is Syed Rahman! I like building Legos and doing motivational speaking. I like walking and experiencing the breeze of nature. My favorite singer and songwriter is Sami Yusuf."
     },
     {name: "Lang Liao",
-      headshot: "/testnextjsghpages/langliao0.jpg",
-      photo: "/testnextjsghpages/langliao1.jpg",
+      headshot: "/langliao0.jpg",
+      photo: "/langliao1.jpg",
       pronouns: "He/Him",
       title: "Stuybike Cooperation",
       email: "lliao70@stuy.edu",
       blurb: "Sometimes I actually prefer a scooter over a bike as it’s more compact and easier to carry around. One of my main interests is doing martial arts."
     },
     {name: "Jakob Weir",
-      headshot: "/testnextjsghpages/jakobweir0.jpg",
-      photo: "/testnextjsghpages/jakobweir1.jpg",
+      headshot: "/jakobweir0.jpg",
+      photo: "/jakobweir1.jpg",
       pronouns: "He/Him",
       title: "CitiBike Collaboration",
       email: "jweir50@stuy.edu",
       blurb: "I frequently bike no matter the weather, sometimes to school and sometimes long distances. I really like the subway and can name almost all the subway stations in New York. I am really into social deduction games like Mafia and have a club dedicated to them."
     },
     {name: "Jackson",
-      headshot: "/testnextjsghpages/jacksonhayes0.jpg",
-      photo: "/testnextjsghpages/jacksonhayes1.jpg",
+      headshot: "/jacksonhayes0.jpg",
+      photo: "/jacksonhayes1.jpg",
       pronouns: "He/Him",
       title: "Director of Outreach and Cooperations",
       email: "jhayes60@stuy.edu",
       blurb: "A general all rounder nerd who's into physics, math, and, of course, biking! You can normally find me chronically online on discord reading about some physics article or trying to model a mathematical problem (and failing horribly). I also play ultimate frisbee and ski occasionally."
     },
     {name: "Brian Lim",
-      headshot: "/testnextjsghpages/brianlim0.jpg",
-      photo: "/testnextjsghpages/brianlim1.jpg",
+      headshot: "/brianlim0.jpg",
+      photo: "/brianlim1.jpg",
       pronouns: "He/Him",
       title: "Graphic Design",
       email: "blim60@stuy.edu",
       blurb: "I’m Brian and I work for Stuybike. I like bikes and vanilla ice cream 👍 "
     },
     {name: "Andy Zhou",
-      headshot: "/testnextjsghpages/andyzhou0.jpg",
-      photo: "/testnextjsghpages/andyzhou1.jpg",
+      headshot: "/andyzhou0.jpg",
+      photo: "/andyzhou1.jpg",
       pronouns: "He/Him",
       title: "CitiBike Collaboration",
       email: "andyzhou085@gmail.com",
       blurb: "I am currently a sophomore at Stuyvesant, and I like exploring the city via biking, taking the train, etc. Outside of the biking club, I am also interested in transit and urban planning."
     },
     {name: "Theodore Eicher",
-      headshot: "/testnextjsghpages/theodoreeicher0.jpg",
-      photo: "/testnextjsghpages/theodoreeicher1.jpg",
+      headshot: "/theodoreeicher0.jpg",
+      photo: "/theodoreeicher1.jpg",
       pronouns: "He/Him",
       title: "N/A",
       email: "teicher50@stuy.edu",
@@ -96,7 +96,7 @@ export default function Home() {
       <div className={styles.missionFlashes}>
         {missionFlashes.map((title, i) => (
           <div className={styles.missionContainer}>
-          <Image  key={`mission${i}`} src={`/testnextjsghpages/mission${i+1}.png`} layout='fill' alt="image of a bike misison statement" objectFit="cover"/>
+          <Image  key={`mission${i}`} src={`/mission${i+1}.png`} layout='fill' alt="image of a bike misison statement" objectFit="cover"/>
             <p className={title == "ADVOCACY FOR BIKING" ? styles.black : ""}>{title}</p>
           </div>
         ))}
@@ -104,7 +104,7 @@ export default function Home() {
       <h2 id="about" className={styles.leadershipTitle}>LEADERSHIP TEAM</h2>
       <div className={styles.leadershipTeam}>
         <Image
-          src="/testnextjsghpages/arrowleft.jpg"
+          src="/arrowleft.jpg"
           width={47}
           height={68}
           alt="left arrow"
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
     </div>
         <Image
-          src="/testnextjsghpages/arrowright.jpg"
+          src="/arrowright.jpg"
           width={47}
           height={68}
           alt="left arrow"
@@ -129,7 +129,7 @@ export default function Home() {
           <div key={`update${i}`} className={styles.updateContainer}>
             <Image
               className={styles.image}
-              src="/testnextjsghpages/placehold2.png"
+              src="/placehold2.png"
               width={331}
               height={331}
               alt="update"
@@ -143,7 +143,7 @@ export default function Home() {
         <div className={styles.imgContainer}>
         <Image
           className={styles.image}
-          src="/testnextjsghpages/placehold1.png"
+          src="/placehold1.png"
           fill={true}
           alt="placehold1"
           objectFit="cover"

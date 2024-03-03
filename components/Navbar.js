@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div id="home" className={styles.navbar}>
       <Image
-        src="/testnextjsghpages/logo.jpg"
+        src="/logo.jpg"
         width={170}
         height={169}
         alt="logo"

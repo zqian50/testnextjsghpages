@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.left}>
         <div className={styles.logo}>
           <Image
-            src="/testnextjsghpages/logo.jpg"
+            src="/logo.jpg"
             width={122}
             height={119}
             alt="logo"
@@ -40,7 +40,7 @@ export default function Footer() {
     <div className={styles.socialsContain}>
         <a target="_blank" href="https://www.facebook.com/profile.php?id=61552001071464" alt="facebook join link">
           <Image
-            src="/testnextjsghpages/facebook.png"
+            src="/facebook.png"
             height={55}
             width={55}
             alt="facebook"
@@ -48,7 +48,7 @@ export default function Footer() {
         </a>
         <a target="_blank" href="https://twitter.com/home" alt="twitter join link">
           <Image
-            src="/testnextjsghpages/twitter.png"
+            src="/twitter.png"
             height={55}
             width={55}
             alt="twitter"
@@ -57,7 +57,7 @@ export default function Footer() {
 
         <a target="_blank" href="https://www.instagram.com/stuy_bike/" alt="instagram join link">
           <Image
-            src="/testnextjsghpages/insta.png"
+            src="/insta.png"
             height={55}
             width={55}
             alt="insta"
@@ -65,7 +65,7 @@ export default function Footer() {
         </a>
         <a target="_blank" href="https://discord.com/invite/knC5ESaJfV" alt="discord join link">
           <Image
-            src="/testnextjsghpages/discord.png"
+            src="/discord.png"
             height={55}
             width={55}
             alt="discord"
