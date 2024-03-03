@@ -24,7 +24,7 @@ export default function Home() {
       headshot: "/axelstahl0.jpg",
       photo: "/axelstal1.jpg",
       pronouns: "He/Him",
-      title: "IT",
+      title: "Director of IT",
       email: "astahl60@gmail.com",
       blurb: "Hello, I am a sophomore at Stuyvesant Highschool. I enjoy reading, listening to jazz and other music, playing piano, and computer science."
     },
