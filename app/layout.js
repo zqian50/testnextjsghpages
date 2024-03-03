@@ -7,7 +7,7 @@ const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "StuyBike",
-  description: "Website for StuyBike",
+  description: "The official site for the Stuyvesant Bike Non Profit Organization",
 };
 
 export default function RootLayout({ children }) {
