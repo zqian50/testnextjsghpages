@@ -32,7 +32,7 @@
 }
 
 .light { font-weight: 400; }
-.heavy { font-weight: 700; }
+.heavy { font-weight: 701; }
 
 @media screen and (max-width: 600px) {
   .image {
