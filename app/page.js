@@ -7,18 +7,26 @@ import './globals.css'
 export default function Home() {
   const missionFlashes = [
     "HOBBY OF BIKING",
-    "ACCESSABILITY OF BIKING",
+    "ACCESSIBILITY OF BIKING",
     "ADVOCACY FOR BIKING",
     "BIKING FOR ENVIRONMENT",
   ]
   const leadershipTeam = [
-    {name: "Syed Rahman",
-      headshot: "/syedrahman0.jpg",
-      photo: "/syedrahman1.jpg",
+    {name: "Zhengrong (Ronny) Qian",
+      headshot: "/zhengrongqian0.jpeg",
+      photo: "/zhengrongqian1.jpeg",
       pronouns: "He/Him",
-      title: "Bike Design Competition",
-      email: "srahman61@stuy.edu",
-      blurb: "Hey guys, my name is Syed Rahman! I like building Legos and doing motivational speaking. I like walking and experiencing the breeze of nature. My favorite singer and songwriter is Sami Yusuf."
+      title: "President",
+      email: "zqian50@stuy.edu",
+      blurb: "Hey there, I am Ronny Qian, a nature lover and a dedicated biker! Biking is not simply a means of commute; it brings us together as a community to voice our shared future. Join us on our quest to promote a healthy, green, and sustainable lifestyle through the fun of biking!"
+    },
+    {name: "Axel Stahl",
+      headshot: "/axelstahl0.jpg",
+      photo: "/axelstal1.jpg",
+      pronouns: "He/Him",
+      title: "IT",
+      email: "astahl60@gmail.com",
+      blurb: "Hello, I am a sophomore at Stuyvesant Highschool. I enjoy reading, listening to jazz and other music, playing piano, and computer science."
     },
     {name: "Lang Liao",
       headshot: "/langliao0.jpg",
@@ -51,14 +59,6 @@ export default function Home() {
       title: "Graphic Design",
       email: "blim60@stuy.edu",
       blurb: "I’m Brian and I work for Stuybike. I like bikes and vanilla ice cream 👍 "
-    },
-    {name: "Andy Zhou",
-      headshot: "/andyzhou0.jpg",
-      photo: "/andyzhou1.jpg",
-      pronouns: "He/Him",
-      title: "CitiBike Collaboration",
-      email: "andyzhou085@gmail.com",
-      blurb: "I am currently a sophomore at Stuyvesant, and I like exploring the city via biking, taking the train, etc. Outside of the biking club, I am also interested in transit and urban planning."
     },
     {name: "Theodore Eicher",
       headshot: "/theodoreeicher0.jpg",
