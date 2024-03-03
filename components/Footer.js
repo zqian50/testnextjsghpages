@@ -37,6 +37,7 @@ export default function Footer() {
         </div>
         <div className={styles.socials}>
         <h2>FOLLOW</h2>
+    <div className={styles.socialsContain}>
         <a target="_blank" href="https://www.facebook.com/profile.php?id=61552001071464" alt="facebook join link">
           <Image
             src="/testnextjsghpages/facebook.png"
@@ -70,6 +71,7 @@ export default function Footer() {
             alt="discord"
           />
         </a>
+    </div>
       </div>
       </div>
     </div>

@@ -123,7 +123,7 @@ export default function Home() {
           alt="left arrow"
         />
       </div>
-      <h2 className={styles.updatesTitle}>UPDATES</h2>
+      <h2 id="services" className={styles.updatesTitle}>UPDATES</h2>
       <div className={styles.updates}>
         {updates.map((obj, i) => (
           <div key={`update${i}`} className={styles.updateContainer}>
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div id="services" className={`${styles.flashOfEvents} ${styles.groupPic}`}>
+      <div className={`${styles.flashOfEvents} ${styles.groupPic}`}>
         <div className={styles.imgContainer}>
         <Image
           className={styles.image}

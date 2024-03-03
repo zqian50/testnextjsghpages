@@ -46,7 +46,14 @@
     margin-right: 0;
   }
   .navigate a {
-    font-size: 12px;
+    font-size: 15px;
   }
 
+}
+
+@media screen and (max-width: 650px) {
+  .navbar {
+    transform: scale(1.25);
+    margin-bottom: 50px;
+  }
 }
