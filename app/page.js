@@ -1,3 +1,6 @@
+'use client'
+
+import { useState } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Leadshiptag from "@/components/leadshiptag";
@@ -5,6 +8,30 @@ import Leadshipcard from "@/components/leadshipcard";
 import './globals.css'
 
 export default function Home() {
+  const [inx1, setInx1] = useState(0);
+
+  function shiftInx1(n, arr) {
+    var len = arr.length;
+    console.log(len);
+    console.log("NN", n);
+    if (n > len) {
+      n = n%7;
+    console.log("NN", n);
+    } else if (n < 0) {
+      n = len + (n % 7);
+    }
+    console.log("NN", n);
+    var inx2 = n+7;
+    if (inx2>len) {
+      console.log(arr.slice(0, inx2 ).concat(arr.slice(n, len)));
+      return arr.slice(n, len).concat(arr.slice(0, n));
+    } else {
+      console.log(arr.slice(n, inx2));
+      return arr.slice(n, inx2);
+    }
+  }
+
+
   const missionFlashes = [
     "HOBBY OF BIKING",
     "ACCESSIBILITY OF BIKING",
@@ -79,6 +106,8 @@ export default function Home() {
     }
   ]
 
+  var tempTeam = shiftInx1(inx1, leadershipTeam);
+
   return (
     <div className={styles.body}>
       <div className={styles.flashOfEvents}>
@@ -108,10 +137,12 @@ export default function Home() {
           width={47}
           height={68}
           alt="left arrow"
+          onClick={() => {setInx1(inx1 + 1); tempTeam = shiftInx1(inx1, leadershipTeam);}}
+
         />
         <div>
         <div className={styles.leaders}>
-          {leadershipTeam.map((obj, i) => (
+          {tempTeam.map((obj, i) => (
             <Leadshiptag className={`leader${i}`} info={obj} key={`leadshiptag${i}`} />
           ))}
         </div>
@@ -121,6 +152,7 @@ export default function Home() {
           width={47}
           height={68}
           alt="left arrow"
+          onClick={() => {setInx1(inx1 - 1); tempTeam = shiftInx1(inx1, leadershipTeam);}}
         />
       </div>
       <h2 id="services" className={styles.updatesTitle}>UPDATES</h2>
