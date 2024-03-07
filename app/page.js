@@ -95,6 +95,14 @@ export default function Home() {
       email: "teicher50@stuy.edu",
       blurb: "In addition to biking, I'm interested in the societal and design aspects of street design and the general study of cities. I've lived my whole life in NYC (Harlem) and am always happy to introduce anyone to the city."
     },
+    {name: "Andy Zhou",
+      headshot: "/andyzhou0.jpg",
+      photo: "/andyzhou1.jpg",
+      pronouns: "He/Him",
+      title: "CitiBike Collaboration",
+      email: "andyzhou085@gmail.com",
+      blurb: "I am currently a sophomore at Stuyvesant, and I like exploring the city via biking, taking the train, etc. Outside of the biking club, I am also interested in transit and urban planning."
+    },
   ]
 
   const updates = [
