@@ -15,7 +15,7 @@ export default function Home() {
     console.log(len);
     console.log("NN", n);
     if (n > len) {
-      n = n%7;
+      n = n%len;
     console.log("NN", n);
     } else if (n < 0) {
       n = len + (n % 7);
@@ -24,7 +24,7 @@ export default function Home() {
     var inx2 = n+7;
     if (inx2>len) {
       console.log(arr.slice(0, inx2 ).concat(arr.slice(n, len)));
-      return arr.slice(n, len).concat(arr.slice(0, n));
+      return arr.slice(n, len).concat(arr.slice(0, inx2-len));
     } else {
       console.log(arr.slice(n, inx2));
       return arr.slice(n, inx2);
@@ -102,6 +102,30 @@ export default function Home() {
       title: "CitiBike Collaboration",
       email: "andyzhou085@gmail.com",
       blurb: "I am currently a sophomore at Stuyvesant, and I like exploring the city via biking, taking the train, etc. Outside of the biking club, I am also interested in transit and urban planning."
+    },
+    {name: "Jamiul Hoq",
+      headshot: "/jamiulhoq0.jpg",
+      photo: "jamiulhoq1.jpg",
+      pronouns: "He/Him",
+      title: "Research",
+      email: "jhoq60@stuy.edu",
+      blurb: "I love playing sports, such as basketball. I am 16 and I like biking from time to time."
+    },
+    {name: "Nathan Lim",
+      headshot: "/nathanlim0.jpeg",
+      photo: "/nathanlim1.jpeg",
+      pronouns: "He/Him",
+      title: "Stuybike library",
+      email: "nlam60@stuy.edu",
+      blurb: "I’m a STEM person, and I like engineering. I enjoy video games, biking, and avoiding waking up."
+    },
+    {name: "Ricky Chen",
+      headshot: "/rickychen0.jpg",
+      photo: "/rickychen1.jpg",
+      pronouns: "He/Him",
+      title: "Stuybike library",
+      email: "rchen71@stuy.edu",
+      blurb: "My name is Ricky and I enjoy playing FPS games. Academically I enjoy STEM and don't fare especially well with the arts. I'm currently a freshman."
     },
   ]
 
