@@ -12,21 +12,15 @@ export default function Home() {
 
   function shiftInx1(n, arr) {
     var len = arr.length;
-    console.log(len);
-    console.log("NN", n);
     if (n > len) {
       n = n%len;
-    console.log("NN", n);
     } else if (n < 0) {
       n = len + (n % 7);
     }
-    console.log("NN", n);
     var inx2 = n+7;
     if (inx2>len) {
-      console.log(arr.slice(0, inx2 ).concat(arr.slice(n, len)));
       return arr.slice(n, len).concat(arr.slice(0, inx2-len));
     } else {
-      console.log(arr.slice(n, inx2));
       return arr.slice(n, inx2);
     }
   }
