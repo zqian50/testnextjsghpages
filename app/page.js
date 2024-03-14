@@ -197,17 +197,17 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <div className={`${styles.flashOfEvents} ${styles.groupPic}`}>
+      <div className={`${styles.groupPic} ${styles.flashOfEvents}`}>
         <div className={styles.imgContainer}>
         <Image
           className={styles.image}
-          src="/placehold1.png"
+          src="/teamphoto.jpg"
           fill={true}
           alt="placehold1"
           objectFit="cover"
         />
         </div>
-        <h2>Group picture</h2>
+        <h2 className={styles.groupTitle}>Group picture</h2>
       </div>
 
     </div>
