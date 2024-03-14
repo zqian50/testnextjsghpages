@@ -198,6 +198,7 @@ export default function Home() {
         ))}
       </div>
       <div className={`${styles.groupPic} ${styles.flashOfEvents}`}>
+        <a target="_blank" href="https://drive.google.com/file/d/1uJ3sktuYYGDJmKoJVlmH5P060LnCkSPu/view?usp=sharing">
         <div className={styles.imgContainer}>
         <Image
           className={styles.image}
@@ -207,6 +208,7 @@ export default function Home() {
           objectFit="cover"
         />
         </div>
+        </a>
         <h2 className={styles.groupTitle}>Group picture</h2>
       </div>
 
