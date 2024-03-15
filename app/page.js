@@ -163,7 +163,7 @@ export default function Home() {
           width={47}
           height={68}
           alt="left arrow"
-          onClick={() => {setInx1(inx1 + 1); tempTeam = shiftInx1(inx1, leadershipTeam);}}
+          onClick={() => {inx1 < 0 ? setInx1(inx1 + 1) : setInx1(0); tempTeam = shiftInx1(inx1, leadershipTeam);}}
 
         />
         <div>
@@ -178,7 +178,7 @@ export default function Home() {
           width={47}
           height={68}
           alt="left arrow"
-          onClick={() => {setInx1(inx1 - 1); tempTeam = shiftInx1(inx1, leadershipTeam);}}
+          onClick={() => {inx1 > -6 ? setInx1(inx1 - 1) : setInx1(-6); tempTeam = shiftInx1(inx1, leadershipTeam); console.log(inx1)}}
         />
       </div>
       <h2 id="services" className={styles.updatesTitle}>UPDATES</h2>
@@ -198,18 +198,17 @@ export default function Home() {
         ))}
       </div>
       <div className={`${styles.groupPic} ${styles.flashOfEvents}`}>
-        <a target="_blank" href="https://drive.google.com/file/d/1uJ3sktuYYGDJmKoJVlmH5P060LnCkSPu/view?usp=sharing">
-        <div className={styles.imgContainer}>
+        <a className={styles.anchor} target="_blank" href="https://drive.google.com/file/d/1uJ3sktuYYGDJmKoJVlmH5P060LnCkSPu/view?usp=sharing">
         <Image
           className={styles.image}
-          src="/teamphoto.jpg"
-          fill={true}
+          src="/teamphoto.png"
           alt="placehold1"
-          objectFit="cover"
+          objectFit="contain"
+          width={0}
+          height={0}
+          style={{ width: '190%', height: 'auto' }}
         />
-        </div>
         </a>
-        <h2 className={styles.groupTitle}>Group picture</h2>
       </div>
 
     </div>

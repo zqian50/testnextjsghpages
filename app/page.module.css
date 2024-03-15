@@ -13,7 +13,7 @@
   border-radius: 30px;
 }
 .imgContainer {
-  height: 495px;
+  height: 635px;
   width: 89.6vw;
   position: relative;
 }
@@ -119,11 +119,16 @@
 }
 .image {
   border-radius: 45px;
+
 }
 
 .groupPic {
   margin-top: 50px;
   height: fit-content;
+  margin-bottom: 100px;
+}
+.anchor {
+  display: flex;
 }
 
 
@@ -167,6 +172,9 @@
   }
   .missionFlashes {
     margin-top: -60px ;
+  }
+  .groupPic {
+    transform: scale(1.25);
   }
 }
 
