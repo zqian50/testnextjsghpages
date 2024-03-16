@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Leadshiptag from "@/components/leadshiptag";
@@ -8,7 +8,15 @@ import Leadshipcard from "@/components/leadshipcard";
 import './globals.css'
 
 export default function Home() {
+  const [slideshow, setSlideShow] = useState(0);
+  const delay = 2500;
   const [inx1, setInx1] = useState(0);
+  const timeoutRef = useRef(null);
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
 
   function shiftInx1(n, arr) {
     var len = arr.length;
@@ -25,6 +33,24 @@ export default function Home() {
     }
   }
 
+  const imgInfo = [
+    {src: "/IMG_4931.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4933.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4934.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4935.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4941.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4933.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4946.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_4947.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+  ]
 
   const missionFlashes = [
     "HOBBY OF BIKING",
@@ -134,19 +160,47 @@ export default function Home() {
 
   var tempTeam = shiftInx1(inx1, leadershipTeam);
 
+
+  useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () =>
+        setSlideShow((prevIndex) =>
+          prevIndex === imgInfo.length - 1 ? 0 : prevIndex + 1
+        ),
+      delay
+    );
+
+    return () => {
+      resetTimeout();
+    };
+  }, [slideshow]);
+
   return (
     <div className={styles.body}>
-      <div className={styles.flashOfEvents}>
-        <div className={styles.imgContainer}>
-          <Image
-            src="/placehold1.png"
-            fill={true}
-            alt="placehold1"
-            objectFit="cover"
-            className={styles.image}
-          />
+      <div className={styles.flashOfEvents} >
+        <div className={styles.slideshowDots}>
+          {imgInfo.map((_, idx) => (
+            <div key={`${idx}dot`}
+            className={`${styles.slideshowDot} ${slideshow == idx ? styles.active : ""}`}
+            onClick={()=>setSlideShow(idx)}
+            >
+            </div>
+          ))}
         </div>
-        <h2>Flash of events</h2>
+        <div className={styles.slideshowSlider}style={{ transform: `translate3d(${-slideshow * 100}%, 0, 0)` }}>
+          {imgInfo.map((img, index) => (
+              <Image
+                key={`slide${index}`}
+                src={img.src}
+                height={0}
+                width={0}
+                alt={img.title}
+                objectFit="cover"
+                className={styles.image}
+              />
+          ))}
+        </div>
       </div>
       <div className={styles.missionFlashes}>
         {missionFlashes.map((title, i) => (

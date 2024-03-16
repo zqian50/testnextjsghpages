@@ -6,42 +6,57 @@
 }
 
 .flashOfEvents {
-  text-align: center;
-}
-.flashOfEvents .image {
   border: 8px solid #87b854;
   border-radius: 30px;
+  height: 835px;
+  width: 89.6vw;
+  overflow: hidden;
 }
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+.flashOfEvents .image {
+  height: 835px;
+  width: 89.6vw;
+  display: inline-block;
+  object-fit: cover;
+}
+.slideshowDots {
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  top: 780px;
+  height: 0;
+}
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background: #87b854;
+  opacity: .65;
+}
+.active {
+  opacity: 1;
+}
+
+
 .imgContainer {
   height: 635px;
   width: 89.6vw;
   position: relative;
 }
 
-.flashOfEvents h2 {
-  position: relative;
-  bottom: 50%;
-  left: 50%;
-  transform: translate(-50%, -130%);
-  background-color: #87b854;
-  color: white;
-  font-size: 39px;
-  line-height: 39px;
-  font-weight: 400;
-  width: 63.1vw;
-  padding: 43px 0;
-  border-radius: 60px;
-  transition: all 0.5s ease;
-  opacity: 0.7;
-}
-
-
 .missionFlashes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6.4vw;
-  margin-top: -100px;
+  margin-top: 100px;
   justify-content: center;
 }
 .missionContainer {
