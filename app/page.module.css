@@ -45,8 +45,8 @@
   justify-content: center;
 }
 .missionContainer {
-  width: 351px;
-  height: 438px;
+  width: 325px;
+  height: 405.6px;
   position: relative;
   color: white;
 }
@@ -117,9 +117,9 @@
   color: #000000;
   max-width: 20ch;
 }
-.image {
-  border-radius: 45px;
-
+.groupPic img {
+  width: 60vw;
+  height: auto;
 }
 
 .groupPic {
@@ -175,6 +175,9 @@
   }
   .groupPic {
     transform: scale(1.15);
+  }
+  .groupPic img {
+    width: 100vw;
   }
 }
 

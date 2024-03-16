@@ -206,7 +206,6 @@ export default function Home() {
           objectFit="contain"
           width={0}
           height={0}
-          style={{ width: '100vw', height: 'auto' }}
         />
         </a>
       </div>
