@@ -33,6 +33,20 @@
 
 .light { font-weight: 400; }
 .heavy { font-weight: 701; }
+/*
+.dropDown {
+  display: inline-block;
+  position: relative;
+}
+.dropdownOptions {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+.dropdown:hover .dropdownOptions {
+  display: block;
+}
+*/
 
 @media screen and (max-width: 600px) {
   .image {

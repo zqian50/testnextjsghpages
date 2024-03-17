@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: center;
 }
-
 .flashOfEvents {
   border: 8px solid #87b854;
   border-radius: 30px;
-  height: 835px;
+  height: 80vh;
   width: 89.6vw;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .slideshowSlider {
@@ -18,7 +18,7 @@
   transition: ease 1000ms;
 }
 .flashOfEvents .image {
-  height: 835px;
+  height: 80vh;
   width: 89.6vw;
   display: inline-block;
   object-fit: cover;
@@ -27,7 +27,7 @@
   text-align: center;
   position: relative;
   z-index: 100;
-  top: 780px;
+  top: 70vh;
   height: 0;
 }
 .slideshowDot {
@@ -130,7 +130,11 @@
   font-size: 26px;
   line-height: 36px;
   color: #000000;
-  max-width: 20ch;
+  max-width: 30ch;
+}
+.updateContainer .image {
+  width: 331px;
+  height:auto;
 }
 .groupPic img {
   width: 60vw;

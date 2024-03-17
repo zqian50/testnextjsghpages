@@ -204,6 +204,8 @@ export default function Home() {
                 alt={img.title}
                 objectFit="cover"
                 className={styles.image}
+                priority={true}
+            quality={75}
               />
           ))}
         </div>
@@ -248,8 +250,8 @@ export default function Home() {
             <Image
               className={styles.image}
               src={obj.imageSrc}
-              width={331}
-              height={331}
+              width={0}
+              height={0}
               alt="update"
               objectFit="cover"
             />
