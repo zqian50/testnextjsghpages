@@ -150,12 +150,18 @@ export default function Home() {
   ]
 
   const updates = [
-    {imageSrc: "",
-      description: "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
+    {imageSrc: "/update0.jpg",
+      description: "StuyBike and NYCC are hosting a bike ride on March 22nd at Prospect Park, including free bikes, insurance, a lecture, and complimentary helmets from NYC's DOT Vision Zero project."
     },
-    {imageSrc: "",
-      description: "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text"
-    }
+    {imageSrc: "/update1.jpg",
+      description: "The bike design competition offers a real life case scenario where someone is in need of bikes to accommodate their specific situation they each are facing. This year’s topic will be bikes for a group of students from Kenya."
+    },
+    {imageSrc: "/update2.png",
+      description: "The Bike 4 Donations event aims to garner funds for a inspiring biking related projects.  This year's Bike 4 Donations event will be garnering funds for StuyBike's bike design competition. The ride will take place from south to north along the Hudson River Greenway."
+    },
+    {imageSrc: "/update3.png",
+      description: "StuyBike's Bike Library aims to make bikes available to our fellow students, encouraging them to adopt a more active lifestyle and reduce their carbon footprint. Members of our community can apply for a StuyBike Library card and borrow a bike from our library free of charge."
+    },
   ]
 
   var tempTeam = shiftInx1(inx1, leadershipTeam);
@@ -241,7 +247,7 @@ export default function Home() {
           <div key={`update${i}`} className={styles.updateContainer}>
             <Image
               className={styles.image}
-              src="/placehold2.png"
+              src={obj.imageSrc}
               width={331}
               height={331}
               alt="update"
