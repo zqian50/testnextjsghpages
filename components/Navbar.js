@@ -25,15 +25,6 @@ export default function Navbar() {
         <Link onClick={()=>{setClicked("/about")}} className={"/about" == clicked ? styles.heavy : styles.light} href="#about">ABOUT</Link>
         <Link onClick={()=>{setClicked("/services")}} className={"/services" == clicked ? styles.heavy : styles.light} href="#services">SERVICES</Link>
         <Link onClick={()=>{setClicked("/contact")}} className={"/contact" == clicked ? styles.heavy : styles.light} href="#contact">CONTACT</Link>
-    {/*
-        <div className={styles.dropDown}>
-          <a>Library</a>
-          <div className={styles.dropdownOptions}>
-            <a target="_blank" href="https://forms.gle/PE9AfxDfMZpnFY5bA">Membership Application</a>
-            <a target="_blank" href="https://forms.gle/seACaXxP1ov3xaGJ6">Bike Reservation</a>
-          </div>
-        </div>
-      */}
       </div>
     </div>
   );
