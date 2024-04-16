@@ -34,8 +34,8 @@ export default function Navbar() {
         </div>
       </div>
     </div>
-  );
-function openDrop() {
+<script>
+  function openDrop() {
   document.getElementById("Dropdown").classList.toggle("show");
 }
 
@@ -47,6 +47,8 @@ window.onclick = function(e) {
     }
   }
 }
+</script>
+  );
 }
 
 
