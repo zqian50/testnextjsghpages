@@ -37,7 +37,7 @@ export default function Navbar() {
 <script>
   function openDrop() {
   document.getElementById("Dropdown").classList.toggle("show");
-}
+},
 
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
