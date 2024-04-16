@@ -26,8 +26,8 @@ export default function Navbar() {
         <Link onClick={()=>{setClicked("/services")}} className={"/services" == clicked ? styles.heavy : styles.light} href="#services">SERVICES</Link>
         <Link onClick={()=>{setClicked("/contact")}} className={"/contact" == clicked ? styles.heavy : styles.light} href="#contact">CONTACT</Link>
         <div class="dropdown" className={styles.dropdown}>
-          <button class="dropbtn" className={styles.dropbtn}>STUYBIKE LIBRARY</button>
-          <div class="dropdowncontent" className={styles.dropdowncontent}>
+          <button class="dropbtn" onclick="openDrop()" onClick={openDrop)} className={styles.dropbtn} >STUYBIKE LIBRARY</button>
+          <div id="Dropdown" class="dropdowncontent" className={styles.dropdowncontent}>
             <a className={styles.light} href="https://forms.gle/5H9eywqR8GmY1stM8" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY MEMEMBERSHIP</a>
             <a className={styles.light} href="https://forms.gle/QuYFDKWaRHTT8Gh96" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY RESERVATION</a>
           </div>
@@ -35,4 +35,17 @@ export default function Navbar() {
       </div>
     </div>
   );
+}
+
+function openDrop() {
+  document.getElementById("Dropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
 }
