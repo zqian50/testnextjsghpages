@@ -98,3 +98,7 @@
 .dropdown:hover .dropdowncontent {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #87b955;}
+
+.show {
+  display: block;
+}
