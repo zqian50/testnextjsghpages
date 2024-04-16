@@ -25,8 +25,13 @@ export default function Navbar() {
         <Link onClick={()=>{setClicked("/about")}} className={"/about" == clicked ? styles.heavy : styles.light} href="#about">ABOUT</Link>
         <Link onClick={()=>{setClicked("/services")}} className={"/services" == clicked ? styles.heavy : styles.light} href="#services">SERVICES</Link>
         <Link onClick={()=>{setClicked("/contact")}} className={"/contact" == clicked ? styles.heavy : styles.light} href="#contact">CONTACT</Link>
-        <a className={styles.light} href="https://forms.gle/5H9eywqR8GmY1stM8">STUYBIKE LIBRARY MEMEMBERSHIP</a>
-        <a className={styles.light} href="https://forms.gle/QuYFDKWaRHTT8Gh96">STUYBIKE LIBRARY RESERVATION</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a className={styles.light} href="https://forms.gle/5H9eywqR8GmY1stM8" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY MEMEMBERSHIP</a>
+            <a className={styles.light} href="https://forms.gle/QuYFDKWaRHTT8Gh96" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY RESERVATION</a>
+          </div>
+        </div>
       </div>
     </div>
   );
