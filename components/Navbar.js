@@ -27,7 +27,7 @@ export default function Navbar() {
         <Link onClick={()=>{setClicked("/contact")}} className={"/contact" == clicked ? styles.heavy : styles.light} href="#contact">CONTACT</Link>
         <div class="dropdown">
           <button className={styles.dropbtn}>STUYBIKE LIBRARY</button>
-          <div className={styles.dropdown-content}>
+          <div className={styles.dropdowncontent}>
             <a className={styles.light} href="https://forms.gle/5H9eywqR8GmY1stM8" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY MEMEMBERSHIP</a>
             <a className={styles.light} href="https://forms.gle/QuYFDKWaRHTT8Gh96" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY RESERVATION</a>
           </div>
