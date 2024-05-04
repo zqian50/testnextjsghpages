@@ -50,6 +50,10 @@ export default function Home() {
       title: "StuyBike bike ride with leadership team members"},
     {src: "/IMG_4947.jpg",
       title: "StuyBike bike ride with leadership team members"},
+    {src: "/IMG_5134.jpg",
+      title: "StuyBike bike ride with leadership team members"},
+    {src: "/20240419_165817.jpg",
+      title: "StuyBike bike ride with leadership team members"},
   ]
 
   const missionFlashes = [
