@@ -154,6 +154,12 @@ export default function Home() {
   ]
 
   const updates = [
+    {imageSrc: "/update4.png",
+      description: "Stuy Bike hosted a bike ride across Central Park on April 5th. Members rode from the South end of the park all the way up to the North end, in Harlem. The complimentary helmets from the Vision Zero event came in helpful to allow all members wishing to use a helmet to have one!"
+    },
+    {imageSrc: "/update5.png",
+      description: "On Friday April 19th, Stuy Bike hosted a bike ride across Brooklyn Bridge and into Brooklyn Bridge Park. Some Stuy Bike members got to try out the tandem bike, while others simly appreciated the beginning of the nice Spring weather."
+    },
     {imageSrc: "/update0.jpg",
       description: "StuyBike and NYCC are hosting a bike ride on March 22nd at Prospect Park, including free bikes, insurance, a lecture, and complimentary helmets from NYC's DOT Vision Zero project."
     },
@@ -165,12 +171,6 @@ export default function Home() {
     },
     {imageSrc: "/update3.png",
       description: "StuyBike's Bike Library aims to make bikes available to our fellow students, encouraging them to adopt a more active lifestyle and reduce their carbon footprint. Members of our community can apply for a StuyBike Library card and borrow a bike from our library free of charge."
-    },
-    {imageSrc: "/update4.png",
-      description: "Stuy Bike hosted a bike ride across Central Park on April 5th. Members rode from the South end of the park all the way up to the North end, in Harlem. The complimentary helmets from the Vision Zero event came in helpful to allow all members wishing to use a helmet to have one!"
-    },
-    {imageSrc: "/update5.png",
-      description: "On Friday April 19th, Stuy Bike hosted a bike ride across Brooklyn Bridge and into Brooklyn Bridge Park. Some Stuy Bike members got to try out the tandem bike, while others simly appreciated the beginning of the nice Spring weather."
     },
   ]
 
