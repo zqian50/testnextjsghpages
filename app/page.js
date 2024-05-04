@@ -154,6 +154,9 @@ export default function Home() {
   ]
 
   const updates = [
+    {imageSrc: "/Screenshot 2024-05-04 182940.png",
+      description: "Stuy Bike was featured in a Stuyvesant Spectator article about the Stuy Bike library and how it makes biking more accessible for Stuy students!"
+    },
     {imageSrc: "/update4.png",
       description: "Stuy Bike hosted a bike ride across Central Park on April 5th. Members rode from the South end of the park all the way up to the North end, in Harlem. The complimentary helmets from the Vision Zero event came in helpful to allow all members wishing to use a helmet to have one!"
     },
