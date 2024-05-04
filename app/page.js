@@ -157,6 +157,9 @@ export default function Home() {
     {imageSrc: "/Screenshot 2024-05-04 182940.png",
       description: "Stuy Bike was featured in a Stuyvesant Spectator article about the Stuy Bike library and how it makes biking more accessible for Stuy students!"
     },
+    {imageSrc: "/Screenshot 2024-05-04 183407.png",
+      description: "Stage II StuyBike Library. Check out our Tribeca Storage Location! The StuyBike library thrives out of the contributions of our local community. Learn more about how you can help by email StuyBiking2023@gmail.com"
+    },
     {imageSrc: "/update4.png",
       description: "Stuy Bike hosted a bike ride across Central Park on April 5th. Members rode from the South end of the park all the way up to the North end, in Harlem. The complimentary helmets from the Vision Zero event came in helpful to allow all members wishing to use a helmet to have one!"
     },
