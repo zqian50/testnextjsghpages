@@ -21,10 +21,10 @@ export default function Navbar() {
         <p>STUY BIKE<br/>STUYVESANT HIGHSCHOOL</p>
       </div>
       <div className={styles.navigate}>
-        <Link onClick={()=>{setClicked("/")}} className={"/" == clicked ? styles.heavy : styles.light} href="#home">HOME</Link>
-        <Link onClick={()=>{setClicked("/about")}} className={"/about" == clicked ? styles.heavy : styles.light} href="#about">ABOUT</Link>
-        <Link onClick={()=>{setClicked("/services")}} className={"/services" == clicked ? styles.heavy : styles.light} href="#services">SERVICES</Link>
-        <Link onClick={()=>{setClicked("/contact")}} className={"/contact" == clicked ? styles.heavy : styles.light} href="#contact">CONTACT</Link>
+        <a className={styles.light} href="https://stuybike.org/#home">HOME</a>
+        <a className={styles.light} href="https://stuybike.org/#about">ABOUT</a>
+        <a className={styles.light} href="https://stuybike.org/#services">SERVICES</a>
+        <a className={styles.light} href="https://stuybike.org/#contact">CONTACT</a>
             <a className={styles.light} href="https://forms.gle/5H9eywqR8GmY1stM8" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY MEMEMBERSHIP</a>
             <a className={styles.light} href="https://forms.gle/QuYFDKWaRHTT8Gh96" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY RESERVATION</a>
             <a className={styles.light} href="https://stuybike.org/comp.js">BIKE DESIGN COMPETITION</a>
