@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import styles from "./page.module.css";
 import './globals.css'
-
+export default function Home() {
   return (
     <div className={styles.body}>
       <div className={styles.competitionInfo}>
@@ -22,3 +22,4 @@ import './globals.css'
       </div>
     </div>
   );
+}
