@@ -18,7 +18,7 @@ export default function Navbar() {
         priority={true}
       />
       <div className={styles.title}>
-        <p>STUY BIKE<br/>STUYVESANT HIGHSCHOOL</p>
+        <p>STUY BIKE<br/>STUYVESANT HIGH SCHOOL</p>
       </div>
       <div className={styles.navigate}>
         <a className={styles.light} href="https://stuybike.org/#home">HOME</a>
