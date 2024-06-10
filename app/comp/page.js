@@ -1,37 +1,36 @@
 'use client'
 
-import { useState, useRef, useEffect } from "react";
-import styles from "./page.module.css";
-import './globals.css'
+import styles from './page.module.css';
+import '../globals.css';
 
-export default function Home() {
+export default function CompetitionPage() {
   return (
-    <div className={styles.body}>
-      <div className={styles.competitionInfo}>
-          <p>
-            ABOUT: The bike design competition presents a real-life scenario requiring bikes tailored to specific needs. This year’s focus is on students from Kenya. Participants must modify a donated bike within a $50 budget and submit proposals to StuyBiking2023@gmail.com. Proposals should include screenshots of intended parts, a rationale for the modifications, and a description of shipping and assembly. A committee will select the top design, which will be constructed at a bike factory in Kenya and donated to local kids.
-          </p>
-          <p>
-            PURPOSE: Kenya is one of the world's largest importers of used cars, many of which were banned in Europe for over-emission and "dumped" in developing countries like Kenya. Less than 10% of Kenyans own a car. Bicycles are cheaper, easier to store and maintain, and produce lower carbon emissions. We aim to design a bike suited to the local geography and individual needs, such as carrying capacity and ease of repair. This will help improve the lives of economically disadvantaged students in Kenya through a healthy, green, and sustainable means.
-          </p>
-          <p>
-            PARTICIPANT DESCRIPTION: Participate alone or with up to three others. Review the case scenarios released on June 3. Propose bike modifications and screenshot parts (including delivery fees) from reliable online markets or bike factories. Write a one-page, single-spaced explanation of your design and assembly steps. The budget is $50 max. Submit to StuyBiking2023@gmail.com by June 26!
-          </p>
-          <p>
-            PUBLIC DESCRIPTION: The 2024 StuyBike Bike Design Competition will be accepting submissions from June 3 to June 26 ! This year, participants are tasked with designing bikes for a group of students from Kenya. Participants are asked to research and modify a donated bike to suit the student’s needs under a budget of $50 max. Participants can submit their proposals to our club email (StuyBiking2023@gmail.com). The winning design will be sent to a bike factory in Kenya to actually be constructed and donated to local kids at a school in desperate need of bikes.
-          </p>
-          <p>
-            CASE SCENARIO: 
-Kenya, like many other developing nations, faces difficulties in transportation infrastructure and availability. Existing bike designs do not fully address the needs and conditions of Kenyan users; thus we have decided to launch this competition to modify bikes specifically for our student peers in Kenya. 
-From a global environmental perspective, kenya is home to a large second car market. Many of these used cars were banned in Europe for over-emission and "dumped" in developing countries like Kenya. Bicycles, on the other hand, are less expensive, easier to store and maintain and produce lower carbon emissions. However, bikes are seen as a scarcity in much of Kenya. Furthermore, the current economic crisis hinders the Kenyans. According to CEIC data, the minimum wage in Kenya is 2.71 dollars per hour, and the unemployment rate was 5.69% in 2023, after the economic recession and job cuts. Akoth.J from the local village expressed his desire for a bike. ‘If I had a bike I would not have to travel so far to go to school. Every morning I wake up before the birds and I have to walk two hours to go to school’. There is a need for cheaper and more durable bikes in Kenya as a mode of transportation, not only for ease of living, but also for practical efficiency. 
-
-
-
-
-One reason why modifications are required to the everyday bike is because of the terrain and climate in Kenya. In the capital, Nairobi, bikers must overcome steep hills, uneven surfacing of roads and even muddy, bumpy lanes. Wanjiku.E (14) from the local school told us ‘the road back to home is bumpy. I cannot cycle and I have to push my bike and books up a steep hill’. Bikes must also be made of material that can withstand Kenya’s tropical climate, including periods of intense heat, heavy rain and humidity. Kadogo.R (15) said that her bike began to melt after being placed in the Kenyan Sun. ‘It was so scary! My handles were dripping and so hot to touch!’ Many teens need bikes not only for commuting - Mutunga.K (12) said ‘I have to carry back water and buy food from the market each day for my family.’ Many others have expressed their desire towards owning a bike, but still acknowledge the issues surrounding their bikes not addressing specific needs. Existing bikes in Kenya are often second-hand, and lack essential parts such as working brakes and strong handle-grips, as well as ergonomic equipment. This poses risks to riders, especially on rocky, uneven terrain which is prevalent in Kenya. Enhancing safety and comfort through innovative modifications is crucial to encouraging more people to use bikes
-
-          </p>
-      </div>
+    <div className={styles.compContainer}>
+        <div className={styles.compHeader}>
+            BIKE DESIGN COMPETITION
+        </div>
+        <div className={styles.compRow}>
+            <div className={styles.compBox}>
+                <h2>About</h2>
+                <p>THE BIKE DESIGN COMPETITION PRESENTS A REAL-LIFE SCENARIO REQUIRING BIKES TAILORED TO SPECIFIC NEEDS. THIS YEAR'S FOCUS IS ON STUDENTS FROM KENYA. PARTICIPANTS MUST MODIFY A DONATED BIKE WITHIN A $50 BUDGET AND SUBMIT PROPOSALS TO STUYBIKE2023@GMAIL.COM. PROPOSALS SHOULD INCLUDE SCREENSHOTS OF INTENDED PARTS, A RATIONALE FOR THE MODIFICATIONS, AND A DESCRIPTION OF SHIPPING AND ASSEMBLY. A COMMITTEE WILL SELECT THE TOP DESIGN, WHICH WILL BE CONSTRUCTED AT A BIKE FACTORY IN KENYA AND DONATED TO LOCAL KIDS.</p>
+            </div>
+            <div className={styles.compBox}>
+                <h2>Purpose</h2>
+                <p>KENYA IS ONE OF THE WORLD'S LARGEST IMPORTERS OF USED CARS, MANY OF WHICH WERE BANNED IN EUROPE FOR OVER-EMISSION AND "DUMPED" IN DEVELOPING COUNTRIES LIKE KENYA. LESS THAN 10% OF KENYANS OWN A CAR. BICYCLES ARE CHEAPER, EASIER TO STORE AND MAINTAIN, AND PRODUCE LOWER CARBON EMISSIONS. WE AIM TO DESIGN A BIKE SUITED TO THE LOCAL GEOGRAPHY AND INDIVIDUAL NEEDS, SUCH AS CARRYING CAPACITY AND EASE OF REPAIR. THIS WILL HELP IMPROVE THE LIVES OF ECONOMICALLY DISADVANTAGED STUDENTS IN KENYA THROUGH A HEALTHY, GREEN, AND SUSTAINABLE MEANS.</p>
+            </div>
+            <div className={styles.compBox}>
+                <h2>Participant Description</h2>
+                <p>PARTICIPATE ALONE OR WITH UP TO THREE OTHERS. REVIEW THE CASE SCENARIOS RELEASED ON JUNE 3. PROPOSE BIKE MODIFICATIONS AND SCREENSHOT PARTS (INCLUDING DELIVERY FEES) FROM RELIABLE ONLINE MARKETS OR BIKE FACTORIES. WRITE A ONE-PAGE, SINGLE-SPACED EXPLANATION OF YOUR DESIGN AND ASSEMBLY STEPS. THE BUDGET IS $50 MAX. SUBMIT TO STUYBIKE2023@GMAIL.COM BY JUNE 26!</p>
+            </div>
+            <div className={styles.compBox}>
+                <h2>Public Description</h2>
+                <p>THE 2024 STUYBIKE BIKE DESIGN COMPETITION WILL BE ACCEPTING SUBMISSIONS FROM JUNE 3 TO JUNE 26! THIS YEAR, PARTICIPANTS ARE TASKED WITH DESIGNING BIKES FOR A GROUP OF STUDENTS FROM KENYA. PARTICIPANTS ARE ASKED TO RESEARCH AND MODIFY A DONATED BIKE TO SUIT THE STUDENT'S NEEDS UNDER A BUDGET OF $50 MAX. PARTICIPANTS CAN SUBMIT THEIR PROPOSALS TO OUR CLUB EMAIL (STUYBIKE2023@GMAIL.COM). THE WINNING DESIGN WILL BE SENT TO A BIKE FACTORY IN KENYA TO ACTUALLY BE CONSTRUCTED AND DONATED TO LOCAL KIDS AT A SCHOOL IN DESPERATE NEED OF BIKES.</p>
+            </div>
+        </div>
+        <div className={styles.compCategory}>
+            <h2>Kenya's Transportation Challenges</h2>
+            <p>Kenya, like many other developing nations, faces difficulties in transportation infrastructure and availability. Existing bike designs do not fully address the needs and conditions of Kenyan users; thus we have decided to launch this competition to modify bikes specifically for our student peers in Kenya. From a global environmental perspective, kenya is home to a large second car market. Many of these used cars were banned in Europe for over-emission and "dumped" in developing countries like Kenya. Bicycles, on the other hand, are less expensive, easier to store and maintain and produce lower carbon emissions. However, bikes are seen as a scarcity in much of Kenya. Furthermore, the current economic crisis hinders the Kenyans. According to CEIC data, the minimum wage in Kenya is 2.71 dollars per hour, and the unemployment rate was 5.69% in 2023, after the economic recession and job cuts. Akoth.J from the local village expressed his desire for a bike. ‘If I had a bike I would not have to travel so far to go to school. Every morning I wake up before the birds and I have to walk two hours to go to school’. There is a need for cheaper and more durable bikes in Kenya as a mode of transportation, not only for ease of living, but also for practical efficiency. One reason why modifications are required to the everyday bike is because of the terrain and climate in Kenya. In the capital, Nairobi, bikers must overcome steep hills, uneven surfacing of roads and even muddy, bumpy lanes. Wanjiku.E (14) from the local school told us ‘the road back to home is bumpy. I cannot cycle and I have to push my bike and books up a steep hill’. Bikes must also be made of material that can withstand Kenya’s tropical climate, including periods of intense heat, heavy rain and humidity. Kadogo.R (15) said that her bike began to melt after being placed in the Kenyan Sun. ‘It was so scary! My handles were dripping and so hot to touch!’ Many teens need bikes not only for commuting - Mutunga.K (12) said ‘I have to carry back water and buy food from the market each day for my family.’ Many others have expressed their desire towards owning a bike, but still acknowledge the issues surrounding their bikes not addressing specific needs. Existing bikes in Kenya are often second-hand, and lack essential parts such as working brakes and strong handle-grips, as well as ergonomic equipment. This poses risks to riders, especially on rocky, uneven terrain which is prevalent in Kenya. Enhancing safety and comfort through innovative modifications is crucial to encouraging more people to use bikes.</p>
+        </div>
     </div>
   );
 }
