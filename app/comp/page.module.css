@@ -151,6 +151,66 @@
   display: flex;
 }
 
+.compContainer {
+  background-image: url('bg_bike.png'); /* Ensure this path points to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.compHeader {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.compRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.compBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  flex: 1 1 22%;
+  box-sizing: border-box;
+  max-width: 300px;
+}
+
+.compBox h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.compBox p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.compCategory {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: left;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.compCategory h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.compCategory p {
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 @media screen and (max-width: 835px) {
   .updateContainer {
