@@ -155,10 +155,10 @@ export default function Home() {
 
   const updates = [
      {imageSrc: "/Screenshot 2024-06-23 185625.png",
-      description: "The StuyBike <a href='https://stuybike.org/comp' target='_blank' rel='noopener noreferrer'>Bike Design Competition</a> has begun!"
+      description: "The StuyBike Bike Design Competition has begun!"
     },
     {imageSrc: "/Screenshot 2024-06-23 190111.png",
-      description: "Kenyan friends through zoom for our 5 year tri-staged bikes for Kenya project😄 learn more about what we are doing at <a href='https://stuybike.org/comp' target='_blank' rel='noopener noreferrer'>https://stuybike.org/comp</a>!"
+      description: "Kenyan friends through zoom for our 5 year tri-staged bikes for Kenya project😄 learn more about what we are doing at https://stuybike.org/comp!"
     },
     {imageSrc: "/StuyBikeInternationlBikeday2024.jpg",
       description: "StuyBike celebrated International Bike Day with a two-part bike trip up the Hudson Greenway!"
