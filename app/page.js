@@ -151,6 +151,46 @@ export default function Home() {
       email: "rchen71@stuy.edu",
       blurb: "My name is Ricky and I enjoy playing FPS games. Academically I enjoy STEM and don't fare especially well with the arts. I'm currently a freshman."
     },
+    {name: "Arthur He",
+      headshot: "/arthurhe1.jpg",
+      photo: "/arthurhe2.jpg",
+      pronouns: "He/Him",
+      title: "Social Media and Event Coordinator",
+      email: "ahe72@stuy.edu",
+      blurb: "I like playing basketball, lacrosse, and biking around the city. It helps me relax from all the stress."
+    },
+    {name: "Ashley Zhang",
+      headshot: "/ashleyzhang1.jpg",
+      photo: "/ashleyzhang2.jpg",
+      pronouns: "She/Her",
+      title: "Website Team",
+      email: "azhang60@stuy.edu",
+      blurb: "Hello! My name is Ashley and I'm part of Stuybike because I believe in an active life. I enjoy playing sports such as table tennis, skiing, and rock-climbing, but I'm also passionate about psychology, ecology, and philosophy, among other fields."
+    },
+    {name: "Andy Shyklo",
+      headshot: "/andyshyklo1.jpg",
+      photo: "/andyshyklo2.jpg",
+      pronouns: "He/Him",
+      title: "N/A",
+      email: "ashyklo50@stuy.edu",
+      blurb: "I love to research about biking infrastructure around New York, including CitiBike service, bike lanes, and bike related information in general. I have a lot of experience around New York biking, and am pretty knowledgeable about the expanse and locations of these services, and have a sort of geographic lean to myself. I like to promote alternative modes of transport, with one of my favorites being biking (it can be faster than any other modes of transport), and frequently go on bike trips either alone or with friends."
+    },
+    {name: "Ryan Liang",
+      headshot: "/ryanliang1.jpg",
+      photo: "/ryanliang2.jpg",
+      pronouns: "He/Him",
+      title: "N/A",
+      email: "rliang70@stuy.edu",
+      blurb: "Hi! I’m Ryan and I’m excited to be a part of StuyBike’s leadership team. In my free time, I like to swim and sometimes I bike at the park near my home."
+    },
+    {name: "Syed Rahman",
+      headshot: "/syedrahman0.jpg",
+      photo: "/syedrahman1.jpg",
+      pronouns: "He/Him",
+      title: "Bike Design Competition/Bike Outreach Planning",
+      email: "srahman61@stuy.edu",
+      blurb: "Hey guys, my name is Syed Rahman! I like building Legos and doing motivational speaking. I like walking and experiencing the breeze of nature. My favorite singer and songwriter is Sami Yusuf."
+    },
   ]
 
   const updates = [
