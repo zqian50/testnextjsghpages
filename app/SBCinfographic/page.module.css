@@ -266,7 +266,8 @@
   width: fit-content;
   height: 60vh;
   margin: auto;
+  margin-top: 300px;
   }
 .manybrs {
-  font-size: 20px
+  font-size: 20px;
 }
