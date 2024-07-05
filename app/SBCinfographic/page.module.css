@@ -258,4 +258,12 @@
   .groupPic img {
     width: 100vw;
   }
-}
+  .infographicPDF {
+    position: fixed;
+  inset: 0px;
+  width: 12rem;
+  height: 5rem;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: auto;
+  }
