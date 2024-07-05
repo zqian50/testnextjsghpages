@@ -264,7 +264,7 @@
     position: fixed;
   inset: 0;
   width: fit-content;
-  height: fit-content;
+  height: 60vh;
   margin: auto;
   }
 .manybrs {
