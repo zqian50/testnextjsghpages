@@ -5,8 +5,8 @@ import '../globals.css';
 
 export default function SBCinfographic() {
   return (
-    <div>
-        <embed src="SBCinfographic.pdf" width="800px" />
+    <div className={styles.infographicPDF}>
+        <embed src="SBCinfographic.pdf" width="1000px" />
     </div>
   );
 }
