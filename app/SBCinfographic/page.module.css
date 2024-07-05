@@ -1,0 +1,261 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flashOfEvents {
+  border: 8px solid #87b854;
+  border-radius: 30px;
+  height: 80vh;
+  width: 89.6vw;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+.flashOfEvents .image {
+  height: 80vh;
+  width: 89.6vw;
+  display: inline-block;
+  object-fit: cover;
+}
+.slideshowDots {
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  top: 70vh;
+  height: 0;
+}
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background: #87b854;
+  opacity: .65;
+}
+.active {
+  opacity: 1;
+}
+
+
+.imgContainer {
+  height: 635px;
+  width: 89.6vw;
+  position: relative;
+}
+
+.missionFlashes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6.4vw;
+  margin-top: 100px;
+  justify-content: center;
+}
+.missionContainer {
+  width: 16.25vw;
+  height: 20.28vw;
+  position: relative;
+  color: white;
+}
+.missionContainer p {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2vw;
+  max-width: 14ch;
+  font-weight: 650;
+  text-align: center;
+}
+.black {
+  color: black;
+}
+
+
+.leadershipTitle {
+  margin-top: 80px;
+  font-size: 46px;
+  color: #87b854;
+}
+.leadershipTeam {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.leaders {
+  display: flex;
+  gap: 30px;
+}
+
+
+.updatesTitle {
+  font-size: 46px;
+  line-height: 36px;
+  color: #87b854;
+  font-weight: bold;
+  width: 89vw;
+  text-align: center;
+  margin-top: 150px;
+}
+.updates {
+  display: flex;
+  flex-direction: row;
+  gap: 88px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.updateContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  border: 4px solid #87b854;
+  border-radius: 45px;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+}
+.updateContainer p {
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  max-width: 30ch;
+}
+.updateContainer .image {
+  width: 331px;
+  height:auto;
+}
+.groupPic img {
+  width: 60vw;
+  height: auto;
+}
+
+.groupPic {
+  margin-top: 50px;
+  height: fit-content;
+  margin-bottom: 100px;
+}
+.anchor {
+  display: flex;
+}
+
+.compContainer {
+  background-image: url('/bg_bike.png'); /* Ensure this path points to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.compHeader {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.compRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.compBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  flex: 1 1 22%;
+  box-sizing: border-box;
+  max-width: 300px;
+}
+
+.compBox h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.compBox p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.compCategory {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: left;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.compCategory h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.compCategory p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 835px) {
+  .updateContainer {
+    flex-direction: column;
+    width:fit-content;
+    text-align: center;
+    padding: 4vw;
+  }
+  .updateContainer p {
+    margin-right: 0;
+  }
+  .updatesTitle,
+  .leadershipTitle {
+    font-size: 40px;
+  }
+  .updates img {
+    transform: scale(0.75);
+  }
+  .updates p{
+    font-size: 20px;
+    line-height: 29px;
+    max-width: 50ch;
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .updateContainer {
+    gap: 0;
+    padding: 0;
+  }
+  .flashOfEvents h2{
+    font-size: 30px;
+    padding: 20px 0;
+    transform: translate(-50%, -150%);
+  }
+  .imgContainer {
+    height: 400px;
+    padding: 0 30px;
+  }
+  .missionFlashes {
+    margin-top: -60px ;
+  }
+  .groupPic {
+    transform: scale(1.15);
+  }
+  .groupPic img {
+    width: 100vw;
+  }
+}
