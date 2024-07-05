@@ -9,5 +9,8 @@ export default function SBCinfographic() {
     <div className={styles.infographicPDF}>
         <embed src="SBCinfographic.pdf" width="1000px" height="1500px" />
     </div>
+    <div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    </div>
   );
 }
