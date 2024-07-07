@@ -151,9 +151,58 @@ export default function Home() {
       email: "rchen71@stuy.edu",
       blurb: "My name is Ricky and I enjoy playing FPS games. Academically I enjoy STEM and don't fare especially well with the arts. I'm currently a freshman."
     },
+    {name: "Arthur He",
+      headshot: "/arthurhe1.jpg",
+      photo: "/arthurhe2.jpg",
+      pronouns: "He/Him",
+      title: "Social Media and Event Coordinator",
+      email: "ahe72@stuy.edu",
+      blurb: "I like playing basketball, lacrosse, and biking around the city. It helps me relax from all the stress."
+    },
+    {name: "Ashley Zhang",
+      headshot: "/ashleyzhang1.jpg",
+      photo: "/ashleyzhang2.jpg",
+      pronouns: "She/Her",
+      title: "Website Team",
+      email: "azhang60@stuy.edu",
+      blurb: "Hello! My name is Ashley and I'm part of Stuybike because I believe in an active life. I enjoy playing sports such as table tennis, skiing, and rock-climbing, but I'm also passionate about psychology, ecology, and philosophy, among other fields."
+    },
+    {name: "Andy Shyklo",
+      headshot: "/andyshyklo1.jpg",
+      photo: "/andyshyklo2.jpg",
+      pronouns: "He/Him",
+      title: "N/A",
+      email: "ashyklo50@stuy.edu",
+      blurb: "I love to research about biking infrastructure around New York, including CitiBike service, bike lanes, and bike related information in general. I have a lot of experience around New York biking, and am pretty knowledgeable about the expanse and locations of these services, and have a sort of geographic lean to myself. I like to promote alternative modes of transport, with one of my favorites being biking (it can be faster than any other modes of transport), and frequently go on bike trips either alone or with friends."
+    },
+    {name: "Ryan Liang",
+      headshot: "/ryanliang1.jpg",
+      photo: "/ryanliang2.jpg",
+      pronouns: "He/Him",
+      title: "N/A",
+      email: "rliang70@stuy.edu",
+      blurb: "Hi! I’m Ryan and I’m excited to be a part of StuyBike’s leadership team. In my free time, I like to swim and sometimes I bike at the park near my home."
+    },
+    {name: "Syed Rahman",
+      headshot: "/syedrahman0.jpg",
+      photo: "/syedrahman1.jpg",
+      pronouns: "He/Him",
+      title: "Bike Design Competition/Bike Outreach Planning",
+      email: "srahman61@stuy.edu",
+      blurb: "Hey guys, my name is Syed Rahman! I like building Legos and doing motivational speaking. I like walking and experiencing the breeze of nature. My favorite singer and songwriter is Sami Yusuf."
+    },
   ]
 
   const updates = [
+     {imageSrc: "/Screenshot 2024-06-23 185625.png",
+      description: "The StuyBike Bike Design Competition has begun!"
+    },
+    {imageSrc: "/Screenshot 2024-06-23 190111.png",
+      description: "Kenyan friends through zoom for our 5 year tri-staged bikes for Kenya project😄 learn more about what we are doing at https://stuybike.org/comp!"
+    },
+    {imageSrc: "/StuyBikeInternationlBikeday2024.jpg",
+      description: "StuyBike celebrated International Bike Day with a two-part bike trip up the Hudson Greenway!"
+    },
     {imageSrc: "/Screenshot 2024-05-04 182940.png",
       description: "Stuy Bike was featured in a Stuyvesant Spectator article about the Stuy Bike library and how it makes biking more accessible for Stuy students!"
     },
@@ -164,7 +213,7 @@ export default function Home() {
       description: "Stuy Bike hosted a bike ride across Central Park on April 5th. Members rode from the South end of the park all the way up to the North end, in Harlem. The complimentary helmets from the Vision Zero event came in helpful to allow all members wishing to use a helmet to have one!"
     },
     {imageSrc: "/update5.png",
-      description: "On Friday April 19th, Stuy Bike hosted a bike ride across Brooklyn Bridge and into Brooklyn Bridge Park. Some Stuy Bike members got to try out the tandem bike, while others simly appreciated the beginning of the nice Spring weather."
+      description: "On Friday April 19th, Stuy Bike hosted a bike ride across Brooklyn Bridge and into Brooklyn Bridge Park. Some Stuy Bike members got to try out the tandem bike, while others simply appreciated the beginning of the nice Spring weather."
     },
     {imageSrc: "/update0.jpg",
       description: "StuyBike and NYCC are hosting a bike ride on March 22nd at Prospect Park, including free bikes, insurance, a lecture, and complimentary helmets from NYC's DOT Vision Zero project."
