@@ -301,10 +301,6 @@
   }
 }
   .infographicPDF {
-    position: fixed;
-  inset: 0;
-  width: fit-content;
-  height: 60vh;
   margin: auto;
   margin-top: 300px;
   }

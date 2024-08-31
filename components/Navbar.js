@@ -28,7 +28,7 @@ export default function Navbar() {
          <a className={styles.light} href="https://forms.gle/5H9eywqR8GmY1stM8" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY MEMEMBERSHIP</a>
          <a className={styles.light} href="https://forms.gle/QuYFDKWaRHTT8Gh96" target="_blank" rel="noopener noreferrer">STUYBIKE LIBRARY RESERVATION</a>
          <a className={styles.light} href="https://stuybike.org/comp">BIKE DESIGN COMPETITION</a>
-         <a className={styles.light} href="https://stuybike.org/SBCinfographic/SBCinfographic.html">BIKE LIBRARY INFOGRAPHIC</a>
+         <a className={styles.light} href="https://stuybike.org/SBCinfographic">BIKE LIBRARY INFOGRAPHIC</a>
          <a className={styles.light} href="https://docs.google.com/document/d/12KAs5IuUd_RFgbrIHyHyqXExSWIxz35TI_TAbNVKj0c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">ELECTION CANDIDATE REMARKS</a>
       </div>
     </div>
