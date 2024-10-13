@@ -195,7 +195,7 @@ export default function Home() {
 
   const updates = [
     {imageSrc: "/stuzin.png",
-      description: "Huge shout out to Stuyvesant English teacher Mx. Stuzin for inspiring our creation of the StuyBike Bike Library! None of our progress could have been possible without her inspirations!"
+      description: "Huge shout out to Stuyvesant English teacher Mx. Stuzin for inspiring our creation of the StuyBike Bike Library! None of our progress could have been possible without thier inspirations!"
     },
      {imageSrc: "/Screenshot 2024-06-23 185625.png",
       description: "The StuyBike Bike Design Competition has begun!"
