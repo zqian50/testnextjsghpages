@@ -194,6 +194,9 @@ export default function Home() {
   ]
 
   const updates = [
+    {imageSrc: "/stuzin.png",
+      description: "Huge shout out to Stuyvesant English teacher Mx. Stuzin for inspiring our creation of the StuyBike Bike Library! None of our progress could have been possible without her inspirations!"
+    },
      {imageSrc: "/Screenshot 2024-06-23 185625.png",
       description: "The StuyBike Bike Design Competition has begun!"
     },
@@ -323,6 +326,10 @@ export default function Home() {
             <p>{obj.description}</p>
           </div>
         ))}
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', margin: '20px auto' }}>
+        <h2 id="services" className={styles.updatesTitle}>PRESDIENT'S REMARKS</h2>
+        <img src="ronny.png" alt="President's Remarks" style={{ display: 'block', margin: '20px auto', maxWidth: '90%', height: 'auto' }} />
       </div>
       <div className={`${styles.groupPic} ${styles.flashOfEvents}`}>
         <a className={styles.anchor} target="_blank" href="https://drive.google.com/file/d/1uJ3sktuYYGDJmKoJVlmH5P060LnCkSPu/view?usp=sharing">
